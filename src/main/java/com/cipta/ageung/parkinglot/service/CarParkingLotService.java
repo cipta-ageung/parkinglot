@@ -1,8 +1,10 @@
 package com.cipta.ageung.parkinglot.service;
 
+import com.cipta.ageung.parkinglot.entity.CarParkingSize;
+
 public interface CarParkingLotService {
 
-	void createParkingLot(String size);
+	CarParkingSize createParkingLot(String size);
 	
 	void addCarParkingLot(String number, String colour);
 	

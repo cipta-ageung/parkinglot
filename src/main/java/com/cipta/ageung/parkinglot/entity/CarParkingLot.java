@@ -6,6 +6,10 @@ package com.cipta.ageung.parkinglot.entity;
 
 public class CarParkingLot {
 
+	public CarParkingLot() {
+		super();
+	}
+	
 	public CarParkingLot(String regNumber, String colour) {
 		super();
 		this.regNumber = regNumber;
