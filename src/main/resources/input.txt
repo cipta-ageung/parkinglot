@@ -1,0 +1,15 @@
+create 6
+add KA­01­HH­1234 White
+add KA­01­HH­9999 White
+add KA­01­BB­0001 Black
+add KA­01­HH­7777 Red
+add KA­01­HH­2701 Blue
+add KA­01­HH­3141 Black
+remove 4
+status
+add KA­01­P­333 White
+add DL­12­AA­9999 White
+check-reg-number-with-colour White
+check-slot-number-with-colour White
+check-slot-number-with-reg-number KA­01­HH­3141
+check-slot-number-with-reg-number MH­04­AY­1111
